@@ -1,0 +1,13 @@
+section.accordeon
+	.accordeon-title
+		.accordeon-title__text тестовый
+		.accordeon-title__text аккордеон
+
+	ul.accordeon__list
+		li.accordeon__list
+			each item in ['Основы языка и как на нём говорить правильно', 'Функции', 'Обработка ошибок и отладка', 'Объекты и массивы', 'События']
+				a.accordeon__link(href="#")= item
+				ul.accordeon__lower
+					li.accordeon__lower-item Лексическая структура
+					li.accordeon__lower-item Типы данных, значения и переменные
+					li.accordeon__lower-item Выражения и операторы инструкции

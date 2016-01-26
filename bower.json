@@ -1,0 +1,19 @@
+{
+  "name": "loft",
+  "version": "0.0.0",
+  "authors": [
+    "Vadim D."
+  ],
+  "description": "test-task",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "noodly's portfolio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "~3.0.3",
+    "modernizr": "~2.8.3"
+  }
+}
