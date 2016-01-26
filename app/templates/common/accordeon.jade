@@ -1,11 +1,10 @@
 section.accordeon
-	.accordeon-title
-		.accordeon-title__text тестовый
-		.accordeon-title__text аккордеон
+	.accordeon-logo
+		img.accordeon-logo__img(src="images/logo.png", alt="logo")
 
 	ul.accordeon__list
-		li.accordeon__list
-			each item in ['Основы языка и как на нём говорить правильно', 'Функции', 'Обработка ошибок и отладка', 'Объекты и массивы', 'События']
+		each item in ['Основы языка и как на нём говорить правильно', 'Функции', 'Обработка ошибок и отладка', 'Объекты и массивы', 'События']
+			li.accordeon__item
 				a.accordeon__link(href="#")= item
 				ul.accordeon__lower
 					li.accordeon__lower-item Лексическая структура
