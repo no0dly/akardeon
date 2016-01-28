@@ -53,8 +53,11 @@ body {
   .accordeon__item:nth-child(2n) .accordeon__link {
     background-color: #e7e7e7;
     color: #4f4f4f; }
-  .accordeon__item .active .accordeon__link {
-    background-color: #ff8663; }
+  .accordeon__item.active .accordeon__link {
+    background-color: #ff8663;
+    background-image: url("../images/arrow-up.png"); }
+  .accordeon__item.active .accordeon__lower {
+    display: block; }
 
 .accordeon__lower {
   display: none; }

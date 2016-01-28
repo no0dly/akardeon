@@ -42,9 +42,13 @@
 		}
 	}
 
-	& .active {
+	&.active {
 		.accordeon__link {
 			background-color: #ff8663;
+			background-image: url('../images/arrow-up.png');
+		}
+		.accordeon__lower {
+			display: block;
 		}
 	}
 }
